@@ -1,14 +1,26 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+// import App from './App';
+// import Work from  './About'
 import * as serviceWorker from './serviceWorker';
 
+// import {Link} from "react-router-dom";
+import {Practice} from "./Menu";
+
+// ReactDOM.render(
+//   <React.StrictMode>
+//     <App />
+//   </React.StrictMode>,
+//   document.getElementById('root')
+// );
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
+   <React.StrictMode>
+{/* <Work /> */}
+<Practice />
+   </React.StrictMode>,
+   document.getElementById("boot")
+
 );
 
 // If you want your app to work offline and load faster, you can change
